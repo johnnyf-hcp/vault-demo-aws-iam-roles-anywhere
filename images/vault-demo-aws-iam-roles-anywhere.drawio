@@ -1,0 +1,126 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.5 Chrome/126.0.6478.183 Electron/31.3.0 Safari/537.36" version="24.7.5">
+  <diagram name="Page-1" id="rEYMkjqmV36IyXjjdy-f">
+    <mxGraphModel dx="1327" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ixxohwGwCayWm7vOXNWG-1" value="AWS Account" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_account;strokeColor=#CD2264;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#CD2264;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="150" width="341" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-5" value="IAM Role" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.role;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="126" y="112" width="48" height="27.08" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-14" value="IAM Roles&#xa;Anywhere Profile" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=none;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn-icons-png.flaticon.com/512/8762/8762984.png;fontColor=#232F3E;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="168" y="216" width="32" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-23" value="&lt;div&gt;&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create Trust Anchor&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;with Vault as CA&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="-70" y="70" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-36" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;2&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="130" y="74" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-37" value="&lt;div&gt;&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create required IAM&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px; color: rgb(35, 47, 62); background-color: initial;&quot;&gt;Role&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 10px; color: rgb(35, 47, 62); background-color: initial;&quot;&gt;&amp;nbsp;with IAM Policy&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="119" y="69" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-40" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;CA Bundle&lt;/span&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.certificate_manager;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="30" y="110" width="22.69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-42" value="IAM Policy" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.policy;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="220" y="106" width="48" height="41.23" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-47" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#232F3E;" edge="1" parent="ixxohwGwCayWm7vOXNWG-1" source="ixxohwGwCayWm7vOXNWG-5" target="ixxohwGwCayWm7vOXNWG-42">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-160" y="41" as="sourcePoint" />
+            <mxPoint x="-247" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-48" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#232F3E;" edge="1" parent="ixxohwGwCayWm7vOXNWG-1" source="ixxohwGwCayWm7vOXNWG-14" target="ixxohwGwCayWm7vOXNWG-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="184" y="136" as="sourcePoint" />
+            <mxPoint x="230" y="136" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-49" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;3&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="131" y="295" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-50" value="&lt;div&gt;&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Create IAM Roles Anywhere Profile with the created IAM Role&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-1">
+          <mxGeometry x="151" y="290" width="169" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-7" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#7D8998;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="150" width="390" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-10" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;X.509&lt;/font&gt;&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Certificate&lt;/font&gt;&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#7AA116;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.certificate_manager;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="120" y="151" width="22.69" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-11" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.virtual_machine;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="30" y="190" width="70" height="60" as="geometry" />
+        </mxCell>
+        <UserObject label="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-21dc8ab3-7fff-eeb4-add6-89c41690b26d&quot;&gt;&lt;img width=&quot;97px;&quot; height=&quot;96px;&quot; src=&quot;https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc603uXsdHidQuALrfJWLQI8S7Wp7Q7Rad6k0YgiF9KIQjPbMYhZ4Tp3RAW2H1NFauW9meTEn6QPdVzIyY8TrhSFSpRooJV3l7HKybOlyVvGhV1Bvyg6vWsaeKicofDbWLv0-gbwZBzp3oonE4wg_J6su_JGs6s=s2048?key=331EBk7mOxAZ2Bl2rzReGg&quot;&gt;&lt;/b&gt;" link="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-21dc8ab3-7fff-eeb4-add6-89c41690b26d&quot;&gt;&lt;img width=&quot;97px;&quot; height=&quot;96px;&quot; src=&quot;https://lh7-rt.googleusercontent.com/slidesz/AGV_vUc603uXsdHidQuALrfJWLQI8S7Wp7Q7Rad6k0YgiF9KIQjPbMYhZ4Tp3RAW2H1NFauW9meTEn6QPdVzIyY8TrhSFSpRooJV3l7HKybOlyVvGhV1Bvyg6vWsaeKicofDbWLv0-gbwZBzp3oonE4wg_J6su_JGs6s=s2048?key=331EBk7mOxAZ2Bl2rzReGg&quot;&gt;&lt;/b&gt;" id="ixxohwGwCayWm7vOXNWG-2">
+          <mxCell style="text;whiteSpace=wrap;html=1;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+            <mxGeometry x="230" y="20" width="90" height="90" as="geometry" />
+          </mxCell>
+        </UserObject>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-4" value="AWS IAM Roles&lt;div&gt;Anywhere&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.identity_access_management_iam_roles_anywhere;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="430" y="181" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#232F3E;" edge="1" parent="ixxohwGwCayWm7vOXNWG-7" source="ixxohwGwCayWm7vOXNWG-11" target="ixxohwGwCayWm7vOXNWG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-18" value="&lt;font color=&quot;#232f3e&quot;&gt;&lt;b&gt;CreateSession&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;&quot; color=&quot;#232f3e&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Certificate + Assume Role Specificatio&lt;/font&gt;&lt;span style=&quot;font-size: 11px;&quot;&gt;n&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="200" y="190" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-19" value="&lt;font color=&quot;#232f3e&quot;&gt;&lt;b&gt;Certificate Authority&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="180" y="10" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-22" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#232F3E;entryX=1;entryY=0.5;entryDx=0;entryDy=0;startArrow=openThin;startFill=0;dashed=1;endArrow=none;endFill=0;" edge="1" parent="ixxohwGwCayWm7vOXNWG-7" source="ixxohwGwCayWm7vOXNWG-4" target="ixxohwGwCayWm7vOXNWG-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="230" as="sourcePoint" />
+            <mxPoint x="440" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-24" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#232F3E;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="ixxohwGwCayWm7vOXNWG-7" source="ixxohwGwCayWm7vOXNWG-2" target="ixxohwGwCayWm7vOXNWG-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="191" as="sourcePoint" />
+            <mxPoint x="330" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-30" value="IAM temporary&lt;div&gt;security credentials&lt;/div&gt;" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;fillColor=#DD344C;strokeColor=none;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;pointerEvents=1;shape=mxgraph.aws4.temporary_security_credential;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="250" y="250" width="39.49" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-31" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#232F3E;" edge="1" parent="ixxohwGwCayWm7vOXNWG-7" source="ixxohwGwCayWm7vOXNWG-4" target="ixxohwGwCayWm7vOXNWG-30">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="442" y="191" as="sourcePoint" />
+            <mxPoint x="330" y="75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-32" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#000000;labelBackgroundColor=none;fontColor=#232F3E;entryX=1.014;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="ixxohwGwCayWm7vOXNWG-7" source="ixxohwGwCayWm7vOXNWG-30" target="ixxohwGwCayWm7vOXNWG-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="240" as="sourcePoint" />
+            <mxPoint x="299" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-35" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="360" y="80" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-38" value="&lt;div&gt;&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Vault&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;font-size: 10px; color: rgb(35, 47, 62); background-color: initial;&quot;&gt;Cluster&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="182" y="108" width="190" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-51" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;4&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="30" y="105" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-52" value="&lt;div&gt;&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Generate certificate for on-premise instance&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="ixxohwGwCayWm7vOXNWG-7">
+          <mxGeometry x="50" y="100" width="115" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-41" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ixxohwGwCayWm7vOXNWG-40" target="ixxohwGwCayWm7vOXNWG-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-53" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;5&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;rotation=0;gradientColor=#223548;strokeColor=none;gradientDirection=east;fillColor=#5b738b;rounded=0;pointerEvents=0;fontFamily=Helvetica;fontSize=16;fontColor=#FFFFFF;spacingTop=4;spacingBottom=4;spacingLeft=4;spacingRight=4;points=[];fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="290" y="505" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ixxohwGwCayWm7vOXNWG-54" value="&lt;div&gt;&lt;font color=&quot;#232f3e&quot;&gt;&lt;span style=&quot;font-size: 10px;&quot;&gt;Request IAM&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;span style=&quot;color: rgb(35, 47, 62); font-size: 10px; background-color: initial;&quot;&gt;temporary security&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 10px; color: rgb(35, 47, 62); background-color: initial;&quot;&gt;credentials from IAM Roles Anywhere Profile&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="500" width="169" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
